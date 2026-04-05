@@ -16,10 +16,9 @@
         "purchase",
         "sale",
         "l10n_ve_base",
-        "l10n_ve_rate",
+        "l10n_ve_binaural", # <-- AGREGADO: Vital para el Plan de Cuentas
+        "l10n_ve_currency_rate_live", # <-- Verifica que este nombre coincida con tu carpeta
         "l10n_ve_contact",
-        "account_invoice_pricelist",
-        "account_invoice_pricelist_sale"
     ],
     "data": [
         "security/res_groups.xml",
@@ -35,8 +34,6 @@
         "views/account_move_line.xml",
         "views/account_payment.xml",
         "views/res_partner.xml",
-        # "views/res_currency_views.xml",
-        # "views/ir_property.xml",
         "views/res_company_views.xml",
         "views/tax_unit.xml",
         "views/res_config_settings_views.xml",
